@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Travis Wight | About Me</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<link href="https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Oswald:wght@200;300;400;500;600;700&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&displa
+	y=swap" rel="stylesheet"> 
+
+	<link rel="stylesheet" type="text/css" href="/css/about.css">
+	<link rel="stylesheet" type="text/css" href="/css/base.css">
+	<link rel="shortcut icon" href="img/TW-Logo-Back.png">
+
+	<script src="https://kit.fontawesome.com/dacea39428.js" crossorigin="anonymous"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+	<script src="/js/navbar.js"></script>
+
+	
+</head>
+<body>
+    {{>navbar}}
+	<div class="about">
+		<div id="particles-js"></div>
+		<script src="/js/particles.js"></script>
+		<script src="/js/app.js"></script>
+		<div class="main-container">
+			<div class="about-section" id="about-main-header">
+				<h1>ABOUT ME</h1>
+			</div>
+			<div class="about-section" id="about-main-summary">
+				<h2 class="about-section-title">WHO AM I</h2>
+				<p class="about-section-p" id="about-opening-p">
+					Hello! My name is <span class="green">Travis Wight</span>, I'm {{age}} years old, and I'm a recent graduate of California State University Channel Islands, where I studied Computer Science. I was born and raised in the San Fernando Valley, which is also where I currently reside.
+				</p>
+			</div>
+			<div class="about-section" id="about-main-history">
+				<h2 class="about-section-title">HISTORY</h2>
+				<p class="about-section-p" id="about-elementary-p" >
+					For most of my life, I have been interested in programming and the computer science field. Starting in 4th grade, I took part in my elementary school's very first LEGO Robotics program and, in my 5th grade year, ended up competing at JPL. At first, I was only interested because I loved playing with LEGO (who doesn’t?), but before long I took a liking to making my creations move on their own with motors. This is where my love for programming began to develop.  
+				</p> 
+				<p class="about-section-p" id="about-middle-p">
+					In middle school, I helped create my school’s very first robotics team. Instead of LEGO Robotics, however, we transitioned into VEX Robotics. Starting in my 7th grade year, (under the mentorship of a nearby high school), we began to compete in regional competitions. In my 8th grade year, our team qualified to go to the VEX World Championship. My role on the team was very diverse. From helping build the robot to being part of the drive team, I had my hand in pretty much everything, but my true love was still with programming. For most of my time there, I was actually the only person who took an interest in it. Before graduating from 8th grade, I passed on my knowledge to my younger teammates.
+				</p>
+				<p class="about-section-p" id="about-high-p">
+					In high school, I began learning programming languages like C++ and Java and also participated in robotics. This is where I began to really hone my skills as a programmer and where I developed new skills as a 3D modeler. While I did start out as a programmer on the team, most of my time was spent modeling our robots using SolidWorks. In my Junior year, I became the unofficial "lead CAD designer,” (one of many names to which I answered during my years on the team).
+				</p>
+				<p class="about-section-p" id="about-np-p">
+					Starting in the summer between my junior and senior years of high school, I volunteered (along with a team of like-minded friends) with a nonprofit organization called Not Impossible Labs. Our goal was to develop an exoskeleton leg in order to assist people suffering from cerebral palsy. My experience from robotics carried over to this project, where I used CAD software to help model the design of the leg. This project eventually gained the attention of Jaguar Land Rover, who invited my teammates and I to their offices in England in the summer of 2015 (and ultimately ended up taking over the project).
+				</p>
+				<p class="about-section-p" id="about-college-p">
+					In August 2015, I began attending California State University Channel Islands, where I studied computer science. While there, my interests rapidly turned away from robotics. In my 3rd year at CI, I took a software engineering course, where I, along with 3 other students, developed an Android application that cataloged the various plants around campus over the course of the semester. My role on the team was to develop our application's backend. For my capstone project in my final semester, I developed a film recommendation system built around the concept of item-item collaborative filtering. To visualize this system, I created a web application using Python's Django framework. These two projects are what led to my interest in software development and data science. I graduated from CSUCI in May 2019 and have spent my time since graduation working on a variety of projects both personal and professional.   
+				</p>
+			</div>
+			<div class="about-section" id="about-main-interests">
+				<h2 class="about-section-title">INTERESTS</h2>
+				<p class="about-section-p" id="about-interests-p">
+					My interests include: web development, sofware engineering, data science and machine learning. I am also an avid film nerd and a relatively casual gamer.
+				</p>
+			</div>
+		</div>
+	</div>
+</body>
+</html>

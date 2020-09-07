@@ -1,0 +1,144 @@
+.resume{
+	position: relative;
+	display: flex;
+	min-height: 375px;
+	padding-bottom: 90px;
+	justify-content: center;
+	z-index: 999;
+}
+
+.resume-section{
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	padding: 25px;
+	width: 100%;
+	box-sizing: border-box;
+}
+
+.resume-section-title{
+	font-size: 35px;
+	font-weight: 200;
+	color: #86c232;
+}
+
+.resume-section-p{
+	margin: 0;
+	font-family: "Lato"; 
+	font-size: 20px;
+	font-weight: 200;
+	color: white;
+}
+
+.resume-section-item{
+	position: relative;
+	padding-top: 15px;
+	width: 100%;
+}
+
+.rsi-main-title{
+	position: relative;
+	float: left;
+}
+
+.rsi-secondary-title{
+	position: relative;
+	float: right;
+}
+
+.rsi-title{
+	font-size: 22px;
+	font-weight: 200;
+}
+
+.rsi-subtitle{
+	font-family: "Lato";
+	font-weight: 200;
+	color: #61892f;
+}
+
+.rsi-secondary-title .rsi-title, .rsi-secondary-title .rsi-subtitle{
+	text-align: right;
+}
+
+.rsi-list{
+	margin: 0;
+	padding-left: 20px;
+	padding-top: 10px;
+	clear: both;
+	font-family: "Lato";
+	list-style: circle;
+}
+
+.rsi-list li{
+	font-size: 20px;
+}
+
+.rsi-skill{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+}
+
+.rsi-skill .rsi-title{
+
+}
+
+.rsi-skills{
+	padding-left: 25px;
+	font-family: "Lato";
+	font-weight: 200;
+	color: #61892f;
+}
+
+#resume-main-header{
+	padding-top: 90px;
+	align-items: center;
+}
+
+#resume-main-header h1{
+	font-size: 45px;
+	font-weight: 200;
+}
+
+#resume-main-header h4{
+	font-family: "Lato";
+}
+
+#resume-main-header h4 a{
+	text-decoration: none;
+	color: #6b6e70;
+	transition-property: color;
+	transition-duration: .2s;
+}
+
+#resume-main-header h4 a:hover{
+	color: #86c232;
+}
+
+#resume-main-summary{
+	flex-direction: column;
+}
+
+#resume-main-summary .resume-section-p{
+	padding-top: 15px;
+}
+
+@media only screen and (max-width: 810px){
+	.rsi-skill{
+		display: flex;
+		flex-direction: column;
+		align-items: flex-start;
+	}
+
+	.rsi-skills{
+		padding-top: 10px;
+		padding-left: 0;
+	}
+}
+
+@media only screen and (max-width: 570px){
+	.rsi-secondary-title{
+		display: none;
+	}
+}
